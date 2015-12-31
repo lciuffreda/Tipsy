@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A119C021C34C87000F3232E /* TipsyAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2A119C011C34C87000F3232E /* TipsyAnimation.gif */; };
 		2A8F6A001C33250F00E640E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F69FF1C33250F00E640E2 /* AppDelegate.swift */; };
 		2A8F6A021C33250F00E640E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F6A011C33250F00E640E2 /* ViewController.swift */; };
 		2A8F6A051C33250F00E640E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8F6A031C33250F00E640E2 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		2A8F6A0A1C33250F00E640E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8F6A081C33250F00E640E2 /* LaunchScreen.storyboard */; };
 		2A8F6A151C33251000E640E2 /* TipsyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F6A141C33251000E640E2 /* TipsyTests.swift */; };
 		2A8F6A201C33251000E640E2 /* TipsyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F6A1F1C33251000E640E2 /* TipsyUITests.swift */; };
+		2A8F6A2E1C33255900E640E2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8F6A2D1C33255900E640E2 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A119C011C34C87000F3232E /* TipsyAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = TipsyAnimation.gif; sourceTree = "<group>"; };
 		2A8F69FC1C33250F00E640E2 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8F69FF1C33250F00E640E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A8F6A011C33250F00E640E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		2A8F6A1B1C33251000E640E2 /* TipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8F6A1F1C33251000E640E2 /* TipsyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyUITests.swift; sourceTree = "<group>"; };
 		2A8F6A211C33251000E640E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A8F6A2D1C33255900E640E2 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		2A8F69FE1C33250F00E640E2 /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				2A119C011C34C87000F3232E /* TipsyAnimation.gif */,
 				2A8F69FF1C33250F00E640E2 /* AppDelegate.swift */,
 				2A8F6A011C33250F00E640E2 /* ViewController.swift */,
+				2A8F6A2D1C33255900E640E2 /* SettingViewController.swift */,
 				2A8F6A031C33250F00E640E2 /* Main.storyboard */,
 				2A8F6A061C33250F00E640E2 /* Assets.xcassets */,
 				2A8F6A081C33250F00E640E2 /* LaunchScreen.storyboard */,
@@ -232,6 +238,7 @@
 				2A8F6A0A1C33250F00E640E2 /* LaunchScreen.storyboard in Resources */,
 				2A8F6A071C33250F00E640E2 /* Assets.xcassets in Resources */,
 				2A8F6A051C33250F00E640E2 /* Main.storyboard in Resources */,
+				2A119C021C34C87000F3232E /* TipsyAnimation.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			files = (
 				2A8F6A021C33250F00E640E2 /* ViewController.swift in Sources */,
 				2A8F6A001C33250F00E640E2 /* AppDelegate.swift in Sources */,
+				2A8F6A2E1C33255900E640E2 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				2A8F6A261C33251000E640E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8F6A271C33251000E640E2 /* Build configuration list for PBXNativeTarget "TipsyTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				2A8F6A291C33251000E640E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8F6A2A1C33251000E640E2 /* Build configuration list for PBXNativeTarget "TipsyUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				2A8F6A2C1C33251000E640E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
